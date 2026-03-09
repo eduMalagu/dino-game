@@ -10,12 +10,12 @@ import {
 export default function HomeScreen() {
   return (
     <ImageBackground
-      source={require("../assets/images/background.png")}
+      source={require("../assets/images/4555-1560x950-c.webp")}
       style={styles.background}
       resizeMode="cover"
     >
       <View style={styles.container}>
-        <Link href="/game" asChild>
+        <Link href="/game" asChild replace>
           <TouchableOpacity style={styles.button}>
             <Text style={styles.title}> Jogar </Text>
           </TouchableOpacity>
